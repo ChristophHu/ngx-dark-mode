@@ -1,0 +1,35 @@
+{
+  "name": "@christophhu/ngx-dark-mode",
+  "version": "19.2.0",
+  "description": "Angular dark mode library for toggling between light and dark mode with local storage support.",
+  "license": "MIT",
+  "author": {
+    "name": "Christoph Huschenhoefer",
+    "email": "christoph@nxt.codes"
+  },
+  "keywords": [
+    "angular",
+    "darkmode",
+    "theme",
+    "localstorage"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christophhu/ngx-dark-mode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/christophhu/ngx-dark-mode/issues"
+  },
+  "homepage": "https://github.com/christophhu/ngx-dark-mode#readme",
+  "peerDependencies": {
+    "@angular/common": "^19.2.0",
+    "@angular/core": "^19.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}

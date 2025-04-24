@@ -9,7 +9,7 @@
 
 ## Demo
 <p align="center">
-  <a href="https://christophhu.github.io/ngx-dark-mode"><img src="https://github.com/ChristophHu/ChristophHu/blob/main/assets/gif/ngx-dark-mode.gif" width="500" alt="image" /></a>
+  <a href="https://christophhu.github.io/ngx-dark-mode-toggle"><img src="https://github.com/ChristophHu/ChristophHu/blob/main/assets/gif/ngx-dark-mode-toggle.gif" width="500" alt="image" /></a>
 </p>
 
 ## Description
@@ -35,7 +35,7 @@ npm i @christophhu/ngx-dark-mode
 ```
 
 ```typescript
-import { DarkModeService, DarkModeComponent, Theme } from "@christophhu/ngx-dark-mode";
+import { DarkModeService, DarkModeComponent, Theme } from "@christophhu/ngx-dark-mode-toggle";
 import { DarkModeService } from '@christophhu/ngx-dark-mode';
 
 @Component({

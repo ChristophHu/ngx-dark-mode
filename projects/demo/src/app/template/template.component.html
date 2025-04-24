@@ -1,0 +1,15 @@
+<h2 class="h-6 mt-4 text-xl font-bold">Default Style</h2>
+<div class="flex w-full justify-between items-center">
+  <span class="text-gray-400 text-lg">Default Toggle</span>
+  <dark-mode></dark-mode>
+</div>
+
+<h2 class="h-6 mt-4 text-xl font-bold">Custom Style</h2>
+<form [formGroup]="form">
+  <div class="flex w-full justify-between items-center">
+    <span class="text-gray-400 text-lg">Custom Toggle (Checkbox)</span>
+    <dark-mode>
+      <input type="checkbox" formControlName="darkMode" (change)="toggleTheme()" />
+    </dark-mode>
+  </div>
+</form>
