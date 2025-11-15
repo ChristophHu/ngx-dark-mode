@@ -1,14 +1,14 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, Observable } from 'rxjs';
-import { Theme } from '../models/theme';
+import { NgxDarkModeTheme } from '../models/theme';
 
 @Injectable({
   providedIn: 'root'
 })
-export class DarkModeService {
+export class NgxDarkModeService {
   body: any
 
-  private readonly _theme = new BehaviorSubject<Theme>('dark')
+  private readonly _theme = new BehaviorSubject<NgxDarkModeTheme>('dark')
   theme$: Observable<any> = this._theme.asObservable()
 
   constructor() {
@@ -16,7 +16,7 @@ export class DarkModeService {
     this._theme.next(this.body.dataset['theme'] || localStorage['theme'] || 'dark')
 
     this.theme$.subscribe({
-      next: (theme: Theme) => {
+      next: (theme: NgxDarkModeTheme) => {
         if (theme) {
           localStorage.setItem('theme', theme)
           this.body.dataset['theme'] = theme

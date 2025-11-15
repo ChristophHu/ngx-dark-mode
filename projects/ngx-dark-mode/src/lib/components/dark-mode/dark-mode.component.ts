@@ -1,11 +1,11 @@
 import { AsyncPipe, CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { Observable } from 'rxjs';
-import { Theme } from '../../models/theme';
-import { DarkModeService } from '../../services/dark-mode.service';
+import { NgxDarkModeTheme } from '../../models/theme';
+import { NgxDarkModeService } from '../../services/dark-mode.service';
 
 @Component({
-  selector: 'dark-mode',
+  selector: 'ngx-dark-mode',
   imports: [
     AsyncPipe,
     CommonModule
@@ -13,13 +13,13 @@ import { DarkModeService } from '../../services/dark-mode.service';
   templateUrl: './dark-mode.component.html',
   styleUrl: './dark-mode.component.sass'
 })
-export class DarkModeComponent {
-  constructor(private _darkModeService: DarkModeService) {}
+export class NgxDarkModeComponent {
+  constructor(private _ngxDarkModeService: NgxDarkModeService) {}
 
   toggleTheme() {
-    this._darkModeService.toggleTheme()
+    this._ngxDarkModeService.toggleTheme()
   }
-  getTheme(): Observable<Theme> {
-    return this._darkModeService.theme$
+  getTheme(): Observable<NgxDarkModeTheme> {
+    return this._ngxDarkModeService.theme$
   }
 }

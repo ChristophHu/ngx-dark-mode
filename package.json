@@ -1,6 +1,6 @@
 {
   "name": "ngx-dark-mode",
-  "version": "19.2.0",
+  "version": "20.3.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -12,26 +12,26 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/common": "^19.2.0",
-    "@angular/compiler": "^19.2.0",
-    "@angular/core": "^19.2.0",
-    "@angular/forms": "^19.2.0",
-    "@angular/platform-browser": "^19.2.0",
-    "@angular/platform-browser-dynamic": "^19.2.0",
-    "@angular/router": "^19.2.0",
-    "@christophhu/ngx-dark-mode": "^19.2.0",
+    "@angular/common": "^20.3.12",
+    "@angular/compiler": "^20.3.12",
+    "@angular/core": "^20.3.12",
+    "@angular/forms": "^20.3.12",
+    "@angular/platform-browser": "^20.3.12",
+    "@angular/platform-browser-dynamic": "^20.3.12",
+    "@angular/router": "^20.3.12",
+    "@christophhu/ngx-dark-mode": "^20.3.0",
     "@christophhu/ngx-github-pages-demo": "^19.2.8",
-    "@tailwindcss/postcss": "^4.1.4",
+    "@tailwindcss/postcss": "^4.1.16",
     "postcss": "^8.5.3",
     "rxjs": "~7.8.0",
-    "tailwindcss": "^4.1.4",
+    "tailwindcss": "^4.1.16",
     "tslib": "^2.3.0",
     "zone.js": "~0.15.0"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^19.2.7",
-    "@angular/cli": "^19.2.7",
-    "@angular/compiler-cli": "^19.2.0",
+    "@angular/build": "^20.3.10",
+    "@angular/cli": "^20.3.10",
+    "@angular/compiler-cli": "^20.3.12",
     "@types/jasmine": "~5.1.0",
     "angular-cli-ghpages": "^2.0.3",
     "jasmine-core": "~5.6.0",
@@ -40,7 +40,8 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
-    "ng-packagr": "^19.2.0",
-    "typescript": "~5.7.2"
+    "ng-packagr": "^20.3.2",
+    "postcss": "^8.5.3",
+    "typescript": "~5.9.3"
   }
 }

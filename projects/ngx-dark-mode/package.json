@@ -1,6 +1,6 @@
 {
   "name": "@christophhu/ngx-dark-mode",
-  "version": "19.2.0",
+  "version": "20.3.0",
   "description": "Angular dark mode library for toggling between light and dark mode with local storage support.",
   "license": "MIT",
   "author": {
@@ -26,8 +26,8 @@
   },
   "homepage": "https://github.com/christophhu/ngx-dark-mode#readme",
   "peerDependencies": {
-    "@angular/common": "^19.2.0",
-    "@angular/core": "^19.2.0"
+    "@angular/common": "^20.3.12",
+    "@angular/core": "^20.3.12"
   },
   "dependencies": {
     "tslib": "^2.3.0"
